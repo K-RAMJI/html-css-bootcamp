@@ -1,0 +1,23 @@
+/*
+body{
+  background-color: yellow;
+}
+*/
+
+p {
+  color: red;
+}
+
+a {
+  color: cyan;
+  background-color: magenta;
+}
+
+h2 {
+  color: magenta;
+}
+
+h1 {
+  color: teal;
+  background-color: yellow;
+}

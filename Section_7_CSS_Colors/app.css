@@ -1,10 +1,28 @@
-/*
-body{
-  background-color: yellow;
+/* Css colors*/
+body {
+  background-color: cyan; /* can be written as #ff0*/
+}
+
+h1 {
+  background-color: rgba(212, 0, 255, 0.5);
+}
+
+h2 {
+  background-color: rgb(0, 255, 255);
+  opacity: 50%; /*Telling that whole element to be 50% transparent.*/
+}
+
+div {
+  color: red;
+  border: 1px solid blue;
+}
+
+/*p{
+  border:inherit;
 }
 */
 
-p {
+/* p {
   color: red;
 }
 
@@ -14,10 +32,11 @@ a {
 }
 
 h2 {
-  color: magenta;
+  color: red;
+  background-color: olivedrab;
 }
 
 h1 {
   color: teal;
   background-color: yellow;
-}
+} */

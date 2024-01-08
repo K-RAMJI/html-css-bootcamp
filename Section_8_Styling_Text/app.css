@@ -1,0 +1,27 @@
+h1{
+    font-family: "Segoe UI",Futura,sans-serif;
+    font-size: 60px;
+    font-weight: normal; /*Can use numerical values like 100, 200...*/
+    text-align: center;
+    letter-spacing: 20px;
+    
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-align: justify; */
+}
+
+p{
+    font-weight: bold;
+    /* word-spacing: 20px; */
+    font-size: 20px;
+    line-height: 2; /*If we provide a number with NO unit afterwards, this will multiply the current fornt size.*/}
+
+a{
+    font-style: italic;
+}
+
+em{
+    font-style: normal;
+}

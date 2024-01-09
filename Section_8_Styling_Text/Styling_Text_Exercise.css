@@ -1,0 +1,31 @@
+/* use font-xxxx properties when you want to control the overall font characteristics, such as family, size, style, and weight. 
+
+On the other hand, use text-xxx properties when you want to manipulate the layout and appearance of the text itself, including alignment, decoration, capitalization, line height, letter spacing, and word spacing.
+ */
+
+h1 {
+  font-size: 60px;
+  text-align: "center;";
+  font-family: sans-serif;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 50px;
+  color: #942694;
+}
+
+h3 {
+  color: rgb(192, 136, 145);
+  font-size: 35px;
+  font-family: "Indie Flower", cursive;
+}
+
+p {
+  /* Need to choose a font family to support the font weight we need. */
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 40px;
+  line-height: 2;
+  letter-spacing: 10px;
+}

@@ -1,3 +1,41 @@
+<!-- A relative link in web development refers to a hyperlink that specifies the location of the target resource relative to the location of the current document. Relative links are specified using a path that is relative to the directory structure of the current document.
+
+There are two main types of links:
+
+1. **Relative Links:**
+   - A relative link specifies the location of the linked resource relative to the current document.
+   - Relative links are often used when linking to pages or resources within the same website.
+   - They are more concise and typically involve specifying the path from the current document to the target resource.
+   - Example: `<a href="subfolder/page.html">Go to Subfolder Page</a>`
+
+2. **Absolute Links:**
+   - An absolute link specifies the complete URL or absolute path to the linked resource.
+   - Absolute links are used when linking to external resources or when you want to specify the full path.
+   - They include the protocol (e.g., "http://" or "https://") and the domain.
+   - Example: `<a href="https://www.example.com">Visit Example Website</a>`
+
+Here's a brief example of how relative links work:
+
+Suppose you have a website structure like this:
+
+```
+- index.html
+- about
+  - about.html
+- contact
+  - contact.html
+```
+
+If you are in the `index.html` file and want to link to the `about.html` file, you can use a relative link like this:
+
+```html
+<a href="about/about.html">About Us</a>
+```
+
+This relative link tells the browser to look for the `about.html` file in the `about` directory, which is located at the same level as the current `index.html` file.
+
+Relative links are beneficial because they are more flexible. If you move your website to a different domain or change the directory structure, relative links can often adapt more easily than absolute links. -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +45,7 @@
   </head>
   <body>
     <h1>LOREM IPSUM</h1>
+
     <!--Relative link-->
     <p>Open links page : <a href="Links.html">Links</a></p>
 

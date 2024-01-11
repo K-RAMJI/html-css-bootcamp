@@ -1,0 +1,22 @@
+/* Notes: 
+1. Class attribute can be added to any number of elements on a page. We are creating a grouping of class of elements that we can then hook into in style using CSS.
+
+2. Pound symbol '#' is of IDs. We use period '.' for class. 
+*/
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+#reviews {
+  text-decoration: gold underline;
+}
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}

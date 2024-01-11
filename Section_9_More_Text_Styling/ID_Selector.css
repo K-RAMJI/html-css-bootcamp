@@ -1,0 +1,12 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/*An ID name should occur only once per page.  */
+#featured {
+  color: green;
+}
+
+#Summary {
+  text-decoration: red wavy underline 3px;
+}

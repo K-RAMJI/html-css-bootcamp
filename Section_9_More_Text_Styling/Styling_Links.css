@@ -1,0 +1,70 @@
+/* A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). Pseudo-classes are used to style elements based on their state or position, such as when they are being hovered over, in focus, or the first child of a parent element.
+
+Here are some common examples of CSS pseudo-classes:
+
+1. **:hover**: Applies styles when the mouse pointer is over the element.
+   ```css
+   a:hover {
+     color: red;
+   }
+   ```
+
+2. **:active**: Applies styles when the element is being activated (e.g., when a button is being clicked).
+   ```css
+   button:active {
+     background-color: #00ff00;
+   }
+   ```
+
+3. **:focus**: Applies styles when the element is in focus (e.g., when a form input is selected).
+   ```css
+   input:focus {
+     border: 2px solid blue;
+   }
+   ```
+
+4. **:first-child**: Selects the first child of a parent element.
+   ```css
+   li:first-child {
+     font-weight: bold;
+   }
+   ```
+
+5. **:nth-child(n)**: Selects the nth child of a parent element.
+   ```css
+   tr:nth-child(odd) {
+     background-color: #f2f2f2;
+   }
+   ```
+
+These are just a few examples, and there are many more pseudo-classes available in CSS. Pseudo-classes allow developers to apply styles based on various conditions, making it possible to create dynamic and responsive designs. */
+
+/* The term "pseudo-class" comes from the fact that these classes are not real or physical classes applied to HTML elements in the traditional sense. In CSS, a class is a way to select and style elements based on their class attribute. However, pseudo-classes are a bit different.
+
+Pseudo-classes are used to define a special state of an element. They don't exist as actual classes in the HTML markup; instead, they are applied dynamically based on certain conditions or user interactions. The term "pseudo" means false or not genuine, and in this context, it indicates that these classes are not explicitly part of the document structure but are created dynamically based on the state of the elements.
+
+For example, the `:hover` pseudo-class is applied when the mouse hovers over an element, but there is no actual HTML class named "hover" that you need to add to your markup. The styling is applied pseudo-dynamically based on user interaction.
+
+So, the term "pseudo-class" emphasizes that these classes are not real classes in the traditional sense but are virtual or dynamic classes applied under specific conditions. */
+
+/* The term "pseudo" is derived from the Greek word "pseudes," which means false or not genuine. In general, "pseudo" is used as a prefix to indicate something that appears to be or imitates something else but is not the real or authentic thing. */
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: olive;
+  text-decoration: none;
+}
+
+/* Psuedo class */
+a:visited {
+  /* color:magenta; */
+  color: orangered;
+}
+a:hover {
+  text-decoration: underline;
+  /* cursor:wait; */
+  /* cursor: pointer; */
+}

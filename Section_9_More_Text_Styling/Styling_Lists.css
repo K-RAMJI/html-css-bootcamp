@@ -1,0 +1,27 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+#reviews {
+  text-decoration: gold underline;
+}
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+/* Not a good idea to use a ordered style to unordered lists.Ex: Using the value decimal for list-style-type for an unordered list will put numbers in an order which would look inappropriate. */
+#cast {
+  /* list-style-type: circle; */
+  /* list-style-type: "-"; */
+  list-style-type: square;
+  /* list-style-position: outside; */
+  /* list-style-type: "\1F44D"; */
+  /* list-style-image: url(); */
+}

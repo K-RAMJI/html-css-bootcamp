@@ -1,0 +1,91 @@
+/* Give everything in the body a sans-serif font */
+body {
+  font-family: sans-serif;
+}
+/* Make the h1 center aligned.  Make it not bold (a lighter weight) and give it a font size of 40px */
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+/* Give the paragraphs a font size of 24px */
+p {
+  font-size: 24px;
+}
+
+/*  Select the element with the id of 'leafy' and make it have a color of #1d6e09 and give it a #1d6e09 underline*/
+#leafy {
+  /* text-decoration: underline #1d6e09;  <- WRONG !!!*/
+  /* text-decoration-color: #1d6e09; */
+
+  text-decoration: underline;
+  color: #1d6e09;
+}
+
+/* Select the elements with the class of 'latin' and make them italicized*/
+.latin {
+  font-style: italic;
+}
+
+/* Select all h2s and make them uppercase (using css) */
+h2 {
+  text-transform: uppercase;
+}
+/*  Select all links and remove their underline and make them have a color of orange*/
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+/* Write styles so that links turn red and have a red underline when hovered over*/
+
+a:hover {
+  color: red;
+  text-decoration: underline red;
+  transition: color 0.3s ease;
+}
+
+/*  Make the unordered list use squares for their bullet point marker*/
+
+/* =================NOTES==============
+
+`list-style` and `list-style-type` are related CSS properties used for styling lists, but they serve different purposes:
+
+1. **`list-style`**: This is a shorthand property that allows you to set all the properties related to list styling in one declaration. The syntax for `list-style` is as follows:
+
+    ```css
+    list-style: list-style-type list-style-position list-style-image;
+    ```
+
+    - `list-style-type`: Specifies the type of marker for the list item.
+    - `list-style-position`: Specifies the position of the marker in relation to the list item.
+    - `list-style-image`: Specifies an image as the marker.
+
+    Example:
+
+    ```css
+    ul {
+      list-style: square inside url('marker.png');
+    }
+    ```
+
+2. **`list-style-type`**: This property is used to set the type of marker for list items. It only deals with the marker type, not the position or image. The values for `list-style-type` include `disc`, `circle`, `square`, `decimal`, `lower-roman`, `upper-roman`, `lower-alpha`, `upper-alpha`, and more.
+
+    Example:
+
+    ```css
+    ul {
+      list-style-type: square;
+    }
+    ```
+
+In most cases, if you only need to set the type of marker for your list, you can use `list-style-type`. If you need to set additional properties like position or image, then you would use the `list-style` shorthand property.
+
+Here's a quick breakdown:
+
+- Use `list-style` when you want to set multiple list properties at once.
+- Use `list-style-type` when you specifically want to set the type of marker for list items.*/
+ul {
+  list-style: square;
+}

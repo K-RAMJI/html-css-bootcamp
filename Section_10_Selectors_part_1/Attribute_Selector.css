@@ -1,0 +1,44 @@
+/*{
+  margin: 0;
+  padding: 0;
+} */
+
+p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+/* Selects elements based on the presence or value of certain attributes. This example selects all inputs that have type set to "email". */
+input[type="number"]{
+  background-color: gold;
+}
+
+/*Fancy attribute selector syntax */
+
+/* Without star...it means it looks for exact url. With star it will match where ever the given value matches. Example:  wikipedia, petwiki, techwiki..*/
+/* Links with "wiki" anywhere in the URL. */
+a[href*="wiki"]{
+  color: cyan;
+}
+
+/*This style will be applied to all the hrefs starting with '#" symbol.   */
+/* Links with a URL that starts with '#' */
+a[href^="#"]
+{
+  color: darkviolet;
+}
+
+/*Links with a URL that ends with '.org' .*/
+a[href$=".org"]{
+  color: red;
+}
+
+
+/* Note: We can use this pattern matching for any attribute whatsoever */

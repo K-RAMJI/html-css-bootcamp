@@ -1,0 +1,20 @@
+/* 
+The universal Selector.It will select every single element, regardless of type. Every single element in the document will be selected.
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+p{
+    color:purple
+}
+
+.tag{
+    color: orange;
+}
+
+#featured{
+    color: gold;
+}

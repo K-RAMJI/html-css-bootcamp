@@ -1,0 +1,74 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Merriweather, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+input[type="number"] {
+  background-color: gold;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+a[href^="#"] {
+  color: darkviolet;
+}
+
+.score,
+#featured,
+.tag {
+  color: white;
+  background-color: orangered;
+} */
+
+/* li span{
+  color: grey;
+} */
+
+/* Avoiding the above method(li span) because there could be other lists with spans. So we are using ID to ensure which list we need to apply style.*/
+/* It doesn't matter at which layer the target is nested. All that matters is that it needs to be nested.*/
+#cast span { 
+  color: grey;
+}
+
+/*We could use the below method too. We could write this to be spans nested in an 'li' nested somewhere in the element that has the ID of 'cast'. We could use VSCODE to visualize the hierarchy by hovering on it.
+
+#cast li span{
+  color:grey;
+}
+
+*/
+
+
+/* Child combinator or direct descendent combinator. CHILD COMBINATOR is unlike DESCENDENT COMBINATOR. The '>' combinator selects elements that are direct children of the first element. We can also use selectors. Not limeted to elements */
+ol > li {
+  border: 1px solid red;
+  /* color: red; */
+}
+
+

@@ -1,0 +1,107 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Merriweather, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* In CSS, compound selectors are combinations of multiple simple selectors that are used to target specific elements in your HTML document. Compound selectors allow you to be more specific about which elements you want to style. There are several ways to combine simple selectors to form compound selectors. Here's a simple explanation with examples:
+
+### Simple Selectors:
+- **Element Selector:** Selects elements based on their HTML tag name.
+  ```css
+  p {
+    color: blue;
+  }
+  ```
+
+- **Class Selector:** Selects elements with a specific class attribute.
+  ```css
+  .highlight {
+    background-color: yellow;
+  }
+  ```
+
+- **ID Selector:** Selects a single element with a specific ID attribute.
+  ```css
+  #header {
+    font-size: 24px;
+  }
+  ```
+
+### Compound Selectors:
+You can combine simple selectors to create compound selectors in several ways.
+
+1. **Combining Element and Class Selectors:**
+   ```css
+   p.highlight {
+     color: red;
+   }
+   ```
+   Selects `<p>` elements with the class "highlight."
+
+2. **Combining Element and ID Selectors:**
+   ```css
+   div#container {
+     border: 1px solid black;
+   }
+   ```
+   Selects `<div>` elements with the ID "container."
+
+3. **Combining Class Selectors:**
+   ```css
+   .important.warning {
+     font-weight: bold;
+   }
+   ```
+   Selects elements with both "important" and "warning" classes.
+
+4. **Combining Descendant Selectors:**
+   ```css
+   article p {
+     font-style: italic;
+   }
+   ```
+   Selects `<p>` elements that are descendants of `<article>` elements.
+
+5. **Combining Child Selectors:**
+   ```css
+   nav > ul {
+     list-style-type: none;
+   }
+   ```
+   Selects `<ul>` elements that are direct children of `<nav>` elements.
+
+6. **Combining Attribute Selectors:**
+   ```css
+   input[type="text"] {
+     width: 200px;
+   }
+   ```
+   Selects `<input>` elements with the attribute `type` set to "text."
+
+7. **Combining Pseudo-classes:**
+   ```css
+   a:hover {
+     color: purple;
+   }
+   ```
+   Selects `<a>` elements when hovered.
+
+These examples showcase different ways you can combine simple selectors to create compound selectors, allowing you to target specific elements in your HTML document with more precision. Experimenting with these combinations gives you fine-grained control over styling elements based on their attributes, relationships, and states. */
+
+/* A space there means something entirely different*/
+/* 'h2.score' and 'h2 .score' are intirely different. */
+h2.score {
+  color: blueviolet;
+}

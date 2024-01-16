@@ -1,0 +1,15 @@
+h1 {
+  /* border-width: 10px;
+  border-color: gold;
+  border-top-color: red;
+  border-left-color: orange;
+  border-right-color: yellow;
+  border-bottom-color: green;
+  border-style: solid;
+  border-bottom-style: dashed; */
+
+  border: solid green 2px;
+  border-top-color: purple;
+
+  /* border-bottom: 3px dashed magenta; */
+}

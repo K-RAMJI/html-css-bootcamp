@@ -1,0 +1,14 @@
+#link {
+  font-size: 30px;
+  border: 1px solid red;
+  /* padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px; */
+
+  /* top right bottom left */
+  /* padding: 5px 10px 15px 20px; */
+
+  /* top and bottom | left and right */
+  padding: 0 50%;
+}

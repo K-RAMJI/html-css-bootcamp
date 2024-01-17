@@ -1,0 +1,17 @@
+/* Note : With 'box-sizing' set to 'border-box', the width and height now control the overall dimenstions of the entire visible box. */
+
+/* regular box model */
+div {
+  background-color: purple;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  /* border: 5px solid cyan; */
+  border: 50px solid yellow;
+  box-sizing: content-box;
+}
+
+#alternate {
+  box-sizing: border-box;
+  border: 50px solid yellow;
+}

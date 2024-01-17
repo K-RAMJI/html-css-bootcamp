@@ -1,0 +1,22 @@
+h1 {
+  border: 1px solid salmon;
+
+  /* for all 4 sides */
+  /* margin: 30px; */
+
+  /* top-right-bottom-left */
+  /* margin: 10px 10px 10px 10px; */
+
+  /* top-bottom|left-right */
+  margin: 10px 20px;
+
+  /* for individul sides */
+  /* margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px; */
+}
+
+a {
+  border: 1px solid olive;
+}

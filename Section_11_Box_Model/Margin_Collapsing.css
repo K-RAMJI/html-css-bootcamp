@@ -1,0 +1,57 @@
+/* Margin collapsing is a behavior in CSS where the vertical margins of adjacent block-level elements collapse, resulting in a smaller margin between them than the sum of their individual margins. This can affect the spacing between elements in ways that may not be immediately intuitive. Here are the key points to understand about margin collapsing:
+
+1. **Adjacent Vertical Margins:**
+   - Margin collapsing occurs when two or more block-level elements are stacked vertically, and their top and/or bottom margins touch or overlap.
+   - Only vertical margins collapse; horizontal margins do not exhibit this behavior.
+
+2. **Collapsing Rules:**
+   - When two or more adjacent vertical margins collapse, the resulting margin is the larger of the two individual margins. If one margin is negative, the smaller absolute value is used.
+   - If one element has a margin-bottom of 20px, and the element below it has a margin-top of 30px, the collapsed margin between them would be 30px.
+
+3. **Empty Blocks and Margins:**
+   - An empty block-level element's top and bottom margins can collapse if it doesn't contain any inline-level content or padding, and its height is zero.
+   - For example, if you have two empty divs stacked vertically, the margins between them might collapse to the larger of the two margins.
+
+4. **Parent-Child Relationship:**
+   - The margins between a parent and its first/last child can collapse if there are no borders, padding, or content separating them.
+   - If a parent has a margin-bottom of 20px and its first child has a margin-top of 30px, the collapsed margin would be 30px.
+
+5. **Preventing Margin Collapsing:**
+   - Adding non-collapsible content (like borders or padding) between elements can prevent margin collapsing.
+   - Changing the layout to use flexbox or grid can also mitigate margin collapsing in certain cases.
+
+Here's a simple example to illustrate margin collapsing:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    div {
+      margin: 20px;
+      background-color: lightblue;
+    }
+  </style>
+  <title>Margin Collapsing Example</title>
+</head>
+<body>
+  <div>Box 1</div>
+  <div>Box 2</div>
+</body>
+</html>
+```
+
+In this example, the top margin of "Box 2" will collapse with the bottom margin of "Box 1," resulting in an effective margin of 20px between the two divs, not 40px. Understanding margin collapsing is crucial for precise control over the layout of your web pages. */
+
+p {
+  border: 1px solid mediumseagreen;
+  margin: 0 0 70px 0;
+  /* margin-bottom: 20px; */
+}
+
+/* 
+-50 - this will win in case of negative numbers.
+-20
+*/

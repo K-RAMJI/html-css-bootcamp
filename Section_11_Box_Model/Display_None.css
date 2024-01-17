@@ -1,0 +1,7 @@
+h1 {
+  /* display:none; ->removes the elements from page/document. Doesn't take up space. Not animateable. */
+  /* display: none; */
+
+  /*Opacity hides content from the page/document. But takes up space and it is animatealble. */
+  opacity: 0;
+}

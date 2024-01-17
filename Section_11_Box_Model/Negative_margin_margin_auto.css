@@ -1,0 +1,17 @@
+h1 {
+  margin: -20px;
+}
+
+#container {
+  border: 1px solid purple;
+  background-color: lavenderblush;
+  height: 400px;
+  width: 600px;
+}
+
+#container h3 {
+  text-align: center;
+  border: 1px solid black;
+  width: 150px;
+  margin: 100px auto;
+}

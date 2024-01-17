@@ -1,0 +1,10 @@
+.box {
+  background-color: mediumvioletred;
+
+  width: 80%;
+  min-width: 300px;
+  max-width: 500px; /*remember max-height and min-height*/
+
+  height: 200px;
+  margin: 0 auto;
+}

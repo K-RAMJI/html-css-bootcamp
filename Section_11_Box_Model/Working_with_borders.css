@@ -1,15 +1,20 @@
 h1 {
-  /* border-width: 10px;
-  border-color: gold;
+  /*border-width: 2px;
+    border-color: gold;
+    border-style: solid;
+
   border-top-color: red;
-  border-left-color: orange;
-  border-right-color: yellow;
-  border-bottom-color: green;
-  border-style: solid;
+  border-right-color: orange;
+  border-bottom-color: yellow;
+  border-left-color: green;
+
   border-bottom-style: dashed; */
 
-  border: solid green 2px;
-  border-top-color: purple;
+  /* border: solid green 2px;
+  border-top-color: purple; */
 
-  /* border-bottom: 3px dashed magenta; */
+  border-top: 3px dashed magenta;
+  border-right: 3px dashed yellow;
+  border-bottom: 3px dashed green;
+  border-left: 3px dashed red;
 }

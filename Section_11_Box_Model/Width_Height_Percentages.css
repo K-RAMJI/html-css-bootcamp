@@ -1,6 +1,8 @@
 h1 {
   /* text-align: center; */
   border: 2px solid olivedrab;
+
+  /* width and height of content-box[the blue box] */
   width: 500px;
   height: 60px;
 }
@@ -12,7 +14,9 @@ h1 {
 }
 
 .box {
-  border: 1px sold orange;
+  border: 1px solid orange;
+
+  /* Providing width and height in percentage to mention it to be whatever value given[ex: 50%] of its containing element. The container.  */
   height: 50%;
   width: 50%;
 }

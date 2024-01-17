@@ -52,7 +52,7 @@ a[href^="#"] {
 
 /* Avoiding the above method(li span) because there could be other lists with spans. So we are using ID to ensure which list we need to apply style.*/
 /* It doesn't matter at which layer the target is nested. All that matters is that it needs to be nested.*/
-#cast span { 
+#cast span {
   color: grey;
 }
 
@@ -64,11 +64,8 @@ a[href^="#"] {
 
 */
 
-
 /* Child combinator or direct descendent combinator. CHILD COMBINATOR is unlike DESCENDENT COMBINATOR. The '>' combinator selects elements that are direct children of the first element. We can also use selectors. Not limeted to elements */
 ol > li {
   border: 1px solid red;
   /* color: red; */
 }
-
-

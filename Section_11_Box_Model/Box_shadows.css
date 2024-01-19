@@ -1,0 +1,18 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid grey;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: yellow;
+  text-align: justify;
+  padding: 5px;
+
+  /* x-offset y-offset blur-radius(larger the value larger the blur) */
+  /* box-shadow: 10px 10px 10px yellowgreen; */
+
+  /* multiple box shadows */
+  box-shadow: 10px 10px 10px yellowgreen, 12px 12px 12px lightpink;
+}
+
+/* Note : visit cssmatic.com for references.*/

@@ -1,0 +1,11 @@
+h1 {
+  /* A font stack..meaning a list of fonts.  */
+  font-family: "Segoe UI", Futura, sans-serif;
+}
+
+body {
+  /* Fonts are inherited by other elements in the body which doesn't have any styles applied on them.
+ */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

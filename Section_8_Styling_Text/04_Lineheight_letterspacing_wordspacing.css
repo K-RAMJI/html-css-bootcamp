@@ -1,0 +1,32 @@
+h1 {
+  font-family: "Segoe UI", Futura, sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+
+  letter-spacing: 20px; /*sets the horizontal spacing behavior between text*/
+
+  /* letter-spacing: -5px; */
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-weight: bold;
+
+  /* line-height: 3px; */
+
+  /*when NO units like px,rem..etc are mentioned, the lined height will by calculated by multiplying the given value with font size. Using this way will change line height as font size changes.*/
+  line-height: 2;
+
+  text-align: justify;
+
+  word-spacing: 20px; /*sets the length of space between words and between tags.*/
+}
+
+a {
+  font-style: italic;
+}

@@ -1,17 +1,20 @@
 h1 {
   font-family: "Segoe UI", Futura, sans-serif;
-
   font-size: 60px;
-  font-weight: normal; /*Changing default behavior of <h1> which is bold.*/
+  font-weight: normal;
+
+  /* doesn't mean centered in the page but within the element itself.*/
+  text-align: center;
+  direction: rtl; /*used for languages written from right to left. ex: arabic.*/
 }
 
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify; /*text align is inheritable.*/
 }
 
 p {
-  /* can use numerical value from 100 to 900 for supported fonts. check section-8 notes. */
   font-weight: bold;
 }
 

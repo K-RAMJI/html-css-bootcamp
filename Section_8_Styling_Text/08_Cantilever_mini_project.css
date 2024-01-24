@@ -1,0 +1,33 @@
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #fdf9ff;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+div {
+  width: 55%; /*refere section notes for understanding.*/
+  margin-left: 100px;
+  margin-top: 300px;
+}
+
+span {
+  /* #0c2ffb, #2cfcfd, #fb203b, #fefc4b */
+
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 0px -6px 1px #0c2ffb, 0px -12px 1px #2cfcfd, 0px 6px 1px #fb203b,
+    0px 12px 1px #fefc4b;
+}

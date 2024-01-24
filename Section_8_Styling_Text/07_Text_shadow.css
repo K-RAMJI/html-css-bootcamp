@@ -1,0 +1,36 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@100;400;900&display=swap"); */
+
+/* blur-radius : The higher the value, the bigger the blur; the shadow becomes wider and lighter. If not specified, it defaults to 0. */
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+
+  /* offset-x | offset-y | blur-radius | color */
+  /* text-shadow: 1px 1px 2px black; */
+
+  /* color | offset-x | offset-y | blur-radius */
+  /* text-shadow: #fc0 1px 0 10px; */
+
+  /* offset-x | offset-y | color */
+  /* text-shadow: 5px 5px #558abb; */
+
+  /* color | offset-x | offset-y */
+  /* text-shadow: white 2px 5px; */
+
+  /* offset-x | offset-y
+  /* Use defaults for color and blur-radius */
+  /* text-shadow: 5px 10px; */
+
+  /* text-shadow: magenta 3px 3px 3px; */
+
+  /* using multiple shadows */
+  text-shadow: -2px 2px 2px magenta, -4px 4px 2px cyan;
+}
+
+h2 {
+  font-family: "Indie Flower", cursive;
+}

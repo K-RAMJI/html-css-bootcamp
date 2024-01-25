@@ -1,0 +1,41 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+#reviews {
+  text-decoration: gold underline;
+}
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+/*List-style-type CSS Property sets the marker [such as disc, character or custom counter style] of a list item element */
+#cast {
+  /* list-style-type: circle; */
+
+  /* providing user-defined style in double quotes. */
+  /* list-style-type: "@ "; */
+
+  /*using code for an emoji  */
+  list-style-type: "\1F44D";
+
+  /* turning off bullet style */
+  /* list-style-type: none; */
+
+  /* not advisable to use ordered lists styles for unordered lists. */
+  /* list-style-type: lower-roman; */
+  /* ------------------------------------------------- */
+  /* list-style-position CSS property sets the position of the ::marker relative to a list item. */
+  list-style-position: inside; /*default is 'outside' */
+}
+
+p {
+  text-align: justify;
+}

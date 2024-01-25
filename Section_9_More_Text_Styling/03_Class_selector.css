@@ -1,0 +1,25 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: lightcyan;
+}
+
+/* EACH ID MUST BE UNIQUE. */
+#featured {
+  background-color: yellow;
+  font-size: 20px;
+}
+
+#reviews {
+  text-decoration: gold underline;
+}
+
+p {
+  text-align: justify;
+}
+
+/* USE CLASS TO GROUP ELEMENTS */
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}

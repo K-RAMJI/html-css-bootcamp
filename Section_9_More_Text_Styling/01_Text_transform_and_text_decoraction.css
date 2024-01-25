@@ -1,0 +1,26 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  /* CHANING THE CASING OF TEXT USING TEXT-TRANSFORM */
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+
+  /* LONG WAY OF TEXT DECORATION */
+  /* text-decoration-line: line-through;
+  text-decoration-color: cyan;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 19px; */
+
+  /* SHORT HAND WAY */
+  /* text-decoration: line-through cyan wavy; */
+  text-decoration: underline magenta double 10px;
+}
+
+a {
+  /* SETTING NO TEXT DECORATION FOR LINKS TO CHANGE DEFAULT DECORATION. */
+  /* text-decoration: none; */
+  text-decoration-line: none;
+}

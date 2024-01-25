@@ -1,0 +1,17 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: olive;
+  text-decoration: none;
+}
+
+/* pseudo class . visit wikipedia to look how links are styled.*/
+a:visited {
+  color: orangered;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

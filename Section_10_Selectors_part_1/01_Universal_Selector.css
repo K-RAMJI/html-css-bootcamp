@@ -1,0 +1,23 @@
+/* selecting every element on the page. universal selector. */
+/* useful when trying to reset all browser style. ex: setting margin and padding to 0.*/
+
+*{
+  /* border: 1px solid green; */
+  margin: 0;
+  padding:0;
+} 
+
+/* recap of other selectors. */
+p{
+  color: purple;
+}
+
+.tag{
+  color: orange;
+}
+
+#featured{
+  color: gold;
+}
+
+

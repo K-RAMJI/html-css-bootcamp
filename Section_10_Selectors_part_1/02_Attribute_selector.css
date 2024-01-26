@@ -1,0 +1,50 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+/* attribute selectors: selects elements based on the presence or value of certain attributes. Ex: input[type="email"] <- This example selects all inputs that have type set to "email". */
+
+input[type="number"] {
+  background-color: gold;
+}
+
+/* SOME FANCY ATTRIBUTE SELECTORS */
+
+/*Not using '*' to match the exact value provided for href attribute. */
+a[href="#Ramji"]{
+  display: block;
+  text-transform: uppercase;
+}
+
+/*Using '*' to match with the text anywhere in the link provided*/
+a[href*="Ram"]{
+  display: block;
+  text-transform: uppercase;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+/* links with a URL that starts with '#'. Note the '^'. */
+a[href^="#"] {
+  color: darkviolet;
+}
+
+/* Links with a URL that ends with '.org'. Note the '$'.*/
+a[href$=".net"] {
+  color: darkviolet;
+}

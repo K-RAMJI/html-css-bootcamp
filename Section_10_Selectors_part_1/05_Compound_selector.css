@@ -1,0 +1,34 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Merriweather, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* compound selectors: we can combine class, id and element selectors(WITHOUT SPACE. ). */
+
+h2.score {
+  color: blueviolet;
+}
+
+/* h2.big.score{
+  color: blueviolet;
+} */
+
+/* .big.score{
+  color: blueviolet;
+} */
+
+/* h2#summary{
+  color: blueviolet;
+}  */

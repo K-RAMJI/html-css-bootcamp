@@ -1,0 +1,23 @@
+h1 {
+  border: 2px solid olivedrab;
+
+  /* modifying the width and height of the content box. */
+  width: 500px;
+  height: 60px;
+}
+
+/* the div box with id: container */
+#container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+/* the div box with class: box inside the parent div box with id : container. */
+.box {
+  border: 1px solid orange;
+  /* height: 200px;
+  width: 200px; */
+  height: 50%;
+  width: 50%;
+}

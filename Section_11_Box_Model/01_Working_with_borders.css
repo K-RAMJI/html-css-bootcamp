@@ -1,0 +1,27 @@
+h1 {
+  /* border-style should be mentioned for the border to be visible. */
+  /* border-style: solid; */
+  /* border-style: dotted; */
+  /* border-style: groove; */
+  border-top-style: dashed;
+  border-right-style: dotted;
+  border-bottom-style: inset;
+  border-left-style: outset;
+
+  /* border-width: 5px; */
+  border-top-width: 5px;
+  border-right-width: 3px;
+  border-bottom-width: 5px;
+  border-left-width: 3px;
+
+  /* border-color: gold; */
+  border-top-color: lightcoral;
+  border-right-color: orange;
+  border-bottom-color: green;
+  border-bottom-color: aqua;
+}
+
+h2 {
+  border: 2px solid green;
+  border-bottom-color: yellow;
+}

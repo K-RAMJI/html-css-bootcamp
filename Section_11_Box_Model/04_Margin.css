@@ -1,13 +1,29 @@
+body{
+  margin: 0px;
+}
+
 h1 {
   border: 1px solid salmon;
+  /* Margin is like a force field around the border. */
   /* All 4 sides 10px of margin */
+  /* margin: 10px; */
+
+  /* No margin on all 4 sides */
   /* margin: 10px; */
 
   /* Clockwise: TOP, RIGHT, BOTTOM, LEFT */
   /* margin: 10px 20px 30px 40px */
 
   /* TOP/BOTTOM 20px and LEFT/RIGHT 50px */
-  margin: 20px 50px;
+  /* margin: 20px 50px; */
+
+  /* Customizing default margin */
+  margin: 0;
+  /* margin-top: 2px;
+  margin-right: 2px; */
+  margin-bottom: 50px;
+  /* margin-left: 2px; */
+
 }
 a {
   border: 1px solid olive;

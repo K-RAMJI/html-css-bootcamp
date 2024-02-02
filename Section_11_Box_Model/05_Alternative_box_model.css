@@ -1,0 +1,18 @@
+/* width and height doesn't control the overall dimensions. it is regular box model.*/
+/* we have to set box-sizing: border-box. with box-sizing set to border-box, the width and height now control the overall dimenstions of the entire visible box. */
+
+div {
+  background-color: purple;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid cyan;
+  padding: 10px;
+  border: 50px solid green;
+  box-sizing: content-box;
+}
+
+#alternate {
+  /* using alternative box model. */
+  box-sizing: border-box;
+}

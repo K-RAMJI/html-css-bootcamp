@@ -1,0 +1,26 @@
+p {
+  font-size: 30px;
+}
+
+#word {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+}
+h1 {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  height: 300px;
+  display: inline;
+}
+
+.box {
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}

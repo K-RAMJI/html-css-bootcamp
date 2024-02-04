@@ -1,21 +1,43 @@
+/*Block:
+  1. Breaks onto a new line
+  2. Width and height are respected.
+  3. Padding, margin, and border cause other elemtns to be pushed away from the box.
+  4. The box extends in the inline direction to fill available space in container[unless styled otherwise.]
+*/
+
+/*Inline:
+  1. box does not break onto a new line
+  2. Width and height DO NOT APPLY.
+  3. Vertical padding, margin and borders apply but do not cause other inline elements to move away from the box.
+  4. Horizontal padding, margin, and border will apply cause other boxes to move away.
+*/
+
+/*Inline-block
+  1. Hybrid of inline and block
+  2. Box does NOT break onto a new line.
+  3. Width and height are respected.
+  4. Padding, margin and border will cause other elements to be pushed away from the box.
+*/
 p {
   font-size: 30px;
 }
 
 #word {
+  display: inline-block;
+
   border: 10px solid teal;
-  padding: 20px;
+  padding: 20px;  
   margin: 30px;
   height: 50px;
   width: 100px;
-  display: inline-block;
 }
 h1 {
+  display: inline;
+
   border: 10px solid teal;
   padding: 20px;
   margin: 30px;
   height: 300px;
-  display: inline;
 }
 
 .box {

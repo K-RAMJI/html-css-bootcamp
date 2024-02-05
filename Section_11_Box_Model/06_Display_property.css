@@ -22,17 +22,31 @@ p {
   font-size: 30px;
 }
 
+/* #word {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+} */
+
 #word {
   display: inline-block;
-
   border: 10px solid teal;
-  padding: 20px;  
+  padding: 20px;
   margin: 30px;
-  height: 50px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-h1 {
-  display: inline;
+
+/* h1 {
+  display: inline-block;
 
   border: 10px solid teal;
   padding: 20px;
@@ -45,4 +59,4 @@ h1 {
   height: 200px;
   width: 200px;
   display: inline-block;
-}
+} */

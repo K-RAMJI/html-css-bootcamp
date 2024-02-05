@@ -1,4 +1,7 @@
 h1 {
-  /* display: none; */
-  opacity: 0;
+  /* display: none will hide something entirely and get it off the document. not animateable*/
+  display: none;
+
+  /* opacity will make element transparent. but the element is there. opacity is animateable*/ 
+  /* opacity: 0; */
 }

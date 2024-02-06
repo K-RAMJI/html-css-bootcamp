@@ -1,0 +1,9 @@
+/* margin collapsing : when we have two elements that have vertical margin interacting with one another, they don't push each other away and just sum together like we expect, but instead the larger number wins. */
+
+/* applying style for two all paragraphs to implement margin collapsing. */
+p {
+  border: 1px solid mediumseagreen;
+  margin: 0 20px;
+  width: 200px;
+  display: inline-block;
+}

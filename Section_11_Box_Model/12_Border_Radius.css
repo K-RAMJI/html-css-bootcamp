@@ -1,0 +1,10 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: #228b22;
+
+  /* border-radius: 10px; */
+
+  /* top-left | top-right | bottom-right| bottom-left */
+  border-radius: 10px 0 10px 0;
+}

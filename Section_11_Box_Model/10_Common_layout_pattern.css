@@ -1,0 +1,15 @@
+/* h1 {
+  margin-left: 80px;
+}
+
+p {
+  margin-left: 80px;
+}
+button {
+  margin-left: 80px;
+} */
+
+/* placing elements in a container makes it easy to apply styles. */
+.container {
+  margin-left: 200px;
+}

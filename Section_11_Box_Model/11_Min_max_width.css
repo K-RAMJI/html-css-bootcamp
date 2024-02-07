@@ -1,0 +1,10 @@
+.box {
+  width: 80%;
+  /* setting min-width and max-width to tell width not to shrink below min-width and not to expand beyond max-width. */
+  min-width: 300px;
+  max-width: 500px;
+
+  height: 200px;
+  background-color: mediumvioletred;
+  margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+HTML:
+
+<button>click me</button>
+
+
+CSS:
+
+body{
+  background-color:black;
+  text-align:center;
+}
+button{
+  background-color:black;
+  color:white;
+  padding:10px 20px;
+  font-size:30px;
+  border:3px solid white;
+  transition:0.5s all;
+}
+button:hover{
+  background-color:white;
+  color:black;
+}
